@@ -1,0 +1,23 @@
+int marks = 85;
+float distance = 56.86;
+bool switchOn = false;
+char mathsMarks = 'B';
+String my_hobby = "My hobby is making robots";
+
+
+void setup() {
+  Serial.begin(9600);
+
+}
+
+void loop() {
+  Serial.print(marks);
+  Serial.print(" ");
+  Serial.print(distance);
+  Serial.print(" ");
+  Serial.print(switchOn);
+  Serial.print(" ");
+  Serial.println(mathsMarks);
+  
+
+}
